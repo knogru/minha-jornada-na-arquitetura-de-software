@@ -6,6 +6,8 @@ site_author: Aline Oliveira
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/logo.png        # ícone no canto superior esquerdo da nav
+  favicon: assets/favicon.png 
   font:
     text: Inter
     code: JetBrains Mono
