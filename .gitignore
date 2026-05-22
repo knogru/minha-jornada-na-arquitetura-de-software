@@ -9,3 +9,6 @@ node_modules/
 
 # Arquivos gerados pelo MkDocs localmente
 site/
+.pytest_cache/
+__pycache__
+*.pyc
