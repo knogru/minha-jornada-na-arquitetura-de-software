@@ -1,6 +1,7 @@
 site_name: Minha jornada de aprendizado em arquitetura de software
 site_description: Meus fichamentos sobre minhas leituras e projetos da minha jornada de aprendizado
 site_author: Aline Oliveira
+site_url: https://knogru.github.io/minha-jornada-na-arquitetura-de-software/
 
 theme:
   name: material
