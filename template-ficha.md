@@ -1,7 +1,7 @@
-#Fichamento: Aula X - [nome da aula]
+# Fichamento: Aula X - [nome da aula]
 
 | Metadados | Informação |
-| : --- | :--- |
+| :--- | :--- |
 | **Obra** | [nome do livro/artigo] |
 | **Autores** | [nome dos autores] |
 | **Capítulos** | [titulo dos capitulos] |
