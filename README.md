@@ -1,10 +1,10 @@
-Bem-vindo ao meu repositório central de estudos, fichamentos em **Arquitetura de Software**. Este espaço funciona como meu "segundo cérebro" acadêmico e portfólio técnico, consolidando conceitos fundamentais de forma totalmente **agnóstica a linguagens, frameworks ou provedores de nuvem**.
+Bem-vindo ao meu repositório central de estudos, fichamentos em **Arquitetura de Software**. Este espaço funciona como meu portfólio técnico, consolidando conceitos fundamentais de forma totalmente **agnóstica a linguagens, frameworks ou provedores de nuvem**.
 
 O repositório foi estruturado utilizando a filosofia *Docs as Code*, onde toda a documentação teórica é escrita em Markdown, versionada via Git, integrada com diagramas vivos em Mermaid.js e publicada usando MkDocs.
 
 ---
 
-## 🗺️ Estrutura do Repositório
+## Estrutura do Repositório
 
 *   `/docs`: Contém os fichamentos analíticos detalhados de cada aula, divididos por módulos.
 *   `/projects`: Mini projetos conceituais ("mecanismos táticos") construídos sem dependências externas para provar os conceitos estudados.
@@ -12,7 +12,7 @@ O repositório foi estruturado utilizando a filosofia *Docs as Code*, onde toda 
 
 ---
 
-## 📚 Currículo e Módulos de Estudo
+## Currículo e Módulos de Estudo
 
 O plano de estudos está dividido em 8 grandes marcos evolutivos:
 
@@ -27,9 +27,9 @@ O plano de estudos está dividido em 8 grandes marcos evolutivos:
 
 ---
 
-## 🛠️ Portfólio de Mini Projetos (Vanilla Engineering)
+## Portfólio de Mini Projetos
 
-Para garantir que a teoria se transforme em capacidade de design de software, cada módulo é acompanhado por um artefato prático construído sob a premissa de **zero frameworks pesados**, focando puramente no comportamento e na modelagem:
+Cada módulo é acompanhado por um artefato prático construído sob a premissa de **zero frameworks pesados**:
 
 *   **M1: Core Logger & Sanitizer** — Engine pura de captura de auditoria aplicando inversão de dependência absoluta.
 *   **M2: Pipes & Filters Pipeline** — Motor CLI de processamento de streams de dados baseado em filtros intercambiáveis.
@@ -44,7 +44,7 @@ Para garantir que a teoria se transforme em capacidade de design de software, ca
 
 ## 🚀 Como Rodar e Visualizar Este Repositório Localmente
 
-Toda a documentação é compilada em um site estático elegante. Para rodar a documentação na sua máquina:
+Toda a documentação é compilada em um site estático. Para rodar a documentação na sua máquina:
 
 1. Certifique-se de ter o Python instalado.
 2. Instale o MkDocs e o tema de preferência (ex: Material):
