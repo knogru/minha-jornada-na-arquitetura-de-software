@@ -1,0 +1,55 @@
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #335C67;
+    --md-primary-fg-color--light: #4a7d8a;
+    --md-primary-fg-color--dark: #254850;
+    --md-accent-fg-color: #E09F3E;
+    --md-typeset-a-color: #9E2A2B;
+
+    --md-default-bg-color: #faf9f6;
+    --md-default-fg-color: #1a1a1a;
+
+    --md-code-bg-color: #1e1a18;
+    --md-code-fg-color: #e8dcc8;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #4a7d8a;
+    --md-accent-fg-color: #E09F3E;
+    --md-typeset-a-color: #c94f50;
+
+    --md-default-bg-color: #1a1614;
+    --md-code-bg-color: #111010;
+}
+
+/* Barra de navegação superior */
+.md-header {
+    background-color: #335C67;
+}
+
+/* Títulos com serifado elegante */
+.md-typeset h1,
+.md-typeset h2 {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 500;
+}
+
+/* Tags/badges nos posts */
+.md-typeset .md-tag {
+    background-color: rgba(51, 92, 103, 0.12);
+    color: #335C67;
+}
+
+/* Admonition com a cor âmbar */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+    border-color: #E09F3E;
+}
+
+.md-typeset .tip>.admonition-title,
+.md-typeset .tip>summary {
+    background-color: rgba(224, 159, 62, 0.15);
+}
+
+.md-typeset .tip>.admonition-title::before {
+    background-color: #E09F3E;
+}
