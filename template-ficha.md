@@ -12,7 +12,7 @@
 
 ### 1.[n] [citação 1]
 Descrição
-**Citação clássica ( [ n do paragrafo ])**: [citação]
+**Citação clássica ( [ n do paragrafo ] )**: [citação]
 **Minhas palavras**: [ palavras ]
 
 ## 2. Análise Crítica e Conexões Táticas (Fichamento Analítico)
