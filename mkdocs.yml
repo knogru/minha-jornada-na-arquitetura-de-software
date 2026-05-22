@@ -13,8 +13,8 @@ theme:
         icon: material/brightness-7        
         name: mudar para modo escuro
     - media: "(prefers-color-scheme: light)"
-      primary: indigo
-      accent: indigo
+      primary: tomato
+      accent: tomato
       toggle:
         icon: material/brightness-4
         name: mudar para modo claro
