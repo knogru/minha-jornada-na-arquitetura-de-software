@@ -2,7 +2,6 @@ site_name: Minha jornada de aprendizado em arquitetura de software
 site_description: Meus fichamentos sobre minhas leituras e projetos da minha jornada de aprendizado
 site_author: Aline Oliveira
 
-# config do tema
 theme:
   name: material
   palette:
@@ -10,7 +9,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightnrdd-7
+        icon: material/brightness-7        
         name: mudar para modo escuro
     - media: "(prefers-color-scheme: light)"
       primary: indigo
@@ -26,12 +25,13 @@ theme:
 
 plugins:
   - search
+
 markdown_extensions:
   - pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
+      custom_fences:              
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - Início: index.md
