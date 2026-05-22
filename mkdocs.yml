@@ -1,6 +1,6 @@
-site_name:
-site_description:
-site_author
+site_name: Minha jornada de aprendizado em arquitetura de software
+site_description: Meus fichamentos sobre minhas leituras e projetos da minha jornada de aprendizado
+site_author: Aline Oliveira
 
 # config do tema
 theme:
