@@ -8,17 +8,14 @@ on:
 permissions:
   contents: write
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # ✅ força Node.js 24
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2        # ✅ versão com suporte ao Node 24
+      - uses: actions/checkout@v6          # ✅ Node 24 nativo
 
       - name: Configurar Python
-        uses: actions/setup-python@v5.6.0    # ✅ versão com suporte ao Node 24
+        uses: actions/setup-python@v6      # ✅ Node 24 nativo
         with:
           python-version: 3.x
 
