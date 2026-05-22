@@ -1,15 +1,15 @@
 Este documento apresenta o plano de estudos estruturado para o domínio conceitual e prático de **Arquitetura de Software**. O currículo foi desenvolvido cruzando as diretrizes acadêmicas de universidades de referência (UFC, UPE, IFRN), programas internacionais (Coursera/University of Alberta) e os padrões práticos de desenvolvimento de sistemas enterprise.
 
 ## Objetivo do Curso
-Formar a mentalidade de um arquiteto de software sênior por meio do domínio de estilos arquiteturais, atributos de qualidade, modelagem orientada a domínios (DDD), gestão de concorrência de dados, isolamento tático, governança automatizada e estratégias evolutivas de migração. Tudo isso de forma **agnóstica a linguagens e frameworks**.
+Formar a mentalidade de um arquiteto de software por meio do domínio de estilos arquiteturais, atributos de qualidade, modelagem orientada a domínios (DDD), gestão de concorrência de dados, isolamento tático, governança automatizada e estratégias evolutivas de migração. Tudo isso de forma **agnóstica a linguagens e frameworks**.
 
-## 📊 Estrutura de Carga Horária
+## Estrutura de Carga Horária
 * **Total:** 30 aulas (30 horas de imersão ativa)
 * **Dinâmica por Aula:** ~35 minutos de leitura/estudo analítico + ~25 minutos de resolução de atividade teórica ou prática individual.
 
 ---
 
-## 🗺️ Cronograma Detalhado das Aulas
+## Cronograma Detalhado das Aulas
 
 ### Módulo 1: Fundamentos, O Papel do Arquiteto e Atributos de Qualidade
 *Foco na desconstrução da complexidade e mapeamento de direcionadores de negócio.*
