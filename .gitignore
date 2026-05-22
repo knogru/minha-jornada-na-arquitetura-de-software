@@ -12,3 +12,6 @@ site/
 .pytest_cache/
 __pycache__
 *.pyc
+
+#arquivos pessoais
+docs/blog/posts/.post-names.txt

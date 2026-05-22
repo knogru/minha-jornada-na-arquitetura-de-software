@@ -37,6 +37,13 @@ A jornada está dividida em **8 marcos evolutivos**:
 | 7 | Avaliação e Evolução | Architecture Fitness Functions, método ATAM |
 | 8 | Refatoração Legada | Strangler Fig, decomposição de bancos compartilhados |
 
+
+!!! tip "Onde estou agora"
+    **Módulo 1 · Fundamentos, O Papel do Arquiteto e Atributos de Qualidade**  
+    Aula atual: [01 · Definição de Arquitetura e a Lei de Conway](blog/posts/modulo-1-aula-01-definicao-de-arquitetura-e-lei-de-conway.md)  
+    [Ver ementa completa →](ementa.md)
+
+
 ---
 
 ## Portfólio de Mini Projetos

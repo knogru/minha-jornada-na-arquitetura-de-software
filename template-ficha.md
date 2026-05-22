@@ -1,38 +1,83 @@
 ---
 date: 2026-05-22
-title: "Fichamento: Clean Architecture"
+title: "Aula 08 · Arquitetura Hexagonal (Ports and Adapters)"
+description: "Fichamento analítico sobre simetria arquitetural e o uso de abstrações para blindar o domínio de agentes externos."
+authors:
+  - aline
 categories:
-  - DDD
-  - Clean Architecture
+  - Módulo 3 · Padrões Modernos
 tags:
+  - hexagonal
   - ports-and-adapters
+  - isolamento-de-domínio
+reading_time: 8
+aula: 8
+modulo: 3
+status: concluida   # concluida | em-andamento | pendente
 ---
 
-# Fichamento: Aula X - [nome da aula]
+---
+# Aula 08 · Arquitetura Hexagonal (Ports and Adapters)
 
-| Metadados | Informação |
+!!! info "Referência"
+    **Obra:** Hexagonal Architecture  
+    **Autor:** Alistair Cockburn  
+    **Módulo:** 3 — Padrões Modernos e Clean Architecture  
+    **Data da leitura:** 22/05/2026
+
+---
+
+## 1. Ideias-chave
+
+### 1.1 [título da ideia]
+
+Descrição da ideia com suas próprias palavras.
+
+> "Citação exata do texto, se houver." — Cockburn, §3
+
+**Síntese:** o que isso significa na prática, em suas palavras.
+
+### 1.2 [título da ideia]
+
+...
+
+---
+
+## 2. Análise crítica e conexões táticas
+
+Sua análise pessoal sobre o conteúdo — concordâncias, tensões com outros conceitos, implicações práticas.
+
+!!! tip "Conexão com aulas anteriores"
+    Como este conceito se relaciona com o que foi visto antes — ex: a Lei de Conway (Aula 01) influencia diretamente onde as portas são desenhadas.
+
+**Conexão com o projeto prático (M3 · Screaming E-Commerce Core):**  
+Como o conceito se aplica ou aparece no mini projeto do módulo.
+
+---
+
+## 3. Atividade prática
+
+**Enunciado:** Identificar as portas de entrada (Driving Ports), saídas (Driven Ports) e adaptadores para um caso de uso que processe notificações via SMS ou Email.
+
+**Minha solução:**
+
+```python
+# seu pseudocódigo ou diagrama aqui
+```
+
+**Reflexão:** o que a atividade revelou ou confirmou sobre o conceito.
+
+---
+
+## 4. Vocabulário técnico
+
+| Termo | Definição |
 | :--- | :--- |
-| **Obra** | [nome do livro/artigo] |
-| **Autores** | [nome dos autores] |
-| **Capítulos** | [titulo dos capitulos] |
-| **Data da leitura** | [data] |
-
----
-## 1. Ideias-Chave e Citações (Fichamento Textual e de Conteúdo)
-
-### 1.[n] [citação 1]
-Descrição
-**Citação clássica ( [ n do paragrafo ] )**: [citação]
-**Minhas palavras**: [ palavras ]
-
-## 2. Análise Crítica e Conexões Táticas (Fichamento Analítico)
-[analise]
-
-**Conexão com o Projeto Prático**: 
+| **Driving Port** | Interface que representa uma intenção externa direcionada ao domínio |
+| **Driven Port** | Interface que o domínio usa para se comunicar com o mundo externo |
+| **Adaptador** | Implementação concreta de uma porta, conectando tecnologia ao domínio |
 
 ---
 
-## 3. Vocabulário Técnico Acumulado
-* **[termo]**: [descrição]
-* **[termo]**: [descrição]
-* **[termo]**: [descrição]
+!!! quote "Para fixar"
+    A frase, princípio ou imagem mental que você vai carregar desta aula.

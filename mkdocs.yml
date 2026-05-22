@@ -36,6 +36,20 @@ extra_css:
 
 plugins:
   - search
+  - blog:
+      blog_dir: blog
+      post_date_format: "dd 'de' MMMM 'de' yyyy"
+      post_url_format: "modulo/{categories}/{slug}"
+      categories_allowed:
+        - Módulo 1 · Fundamentos
+        - Módulo 2 · Estilos Clássicos
+        - Módulo 3 · Padrões Modernos
+        - Módulo 4 · Documentação
+        - Módulo 5 · Dados e Concorrência
+        - Módulo 6 · Sistemas Distribuídos
+        - Módulo 7 · Avaliação e Evolução
+        - Módulo 8 · Refatoração Legada
+  - tags
 
 markdown_extensions:
   - pymdownx.superfences:
