@@ -1,26 +1,28 @@
 name: Deploy MkDocs no GithubPages
-on: 
+
+on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
 
 jobs:
   deploy:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest        # ❌ runs_on → runs-on (hífen, não underscore)
     steps:
-      -uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # ❌ faltava espaço após o hífen
 
-      -name: Configurar Python
-        -uses: actions/setup-python@v5
-        -with: 
-          python-python: 3.x
+      - name: Configurar Python
+        uses: actions/setup-python@v5  # ❌ removido o hífen antes de uses/with
+        with:
+          python-version: 3.x          # ❌ python-python → python-version
 
-      -name: Instalar Dependências
-        -run: |
-          pyton -m pip install -upgrade pip
+      - name: Instalar Dependências
+        run: |                         # ❌ removido o hífen antes de run
+          python -m pip install --upgrade pip  # ❌ pyton → python, -upgrade → --upgrade
           pip install -r requirements.txt
-      
-      -name: Executar Deploy
+
+      - name: Executar Deploy
         run: mkdocs gh-deploy --force
