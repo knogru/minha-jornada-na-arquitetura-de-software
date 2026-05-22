@@ -1,3 +1,13 @@
+---
+date: 2026-05-22
+title: "Fichamento: Clean Architecture"
+categories:
+  - DDD
+  - Clean Architecture
+tags:
+  - ports-and-adapters
+---
+
 # Fichamento: Aula X - [nome da aula]
 
 | Metadados | Informação |

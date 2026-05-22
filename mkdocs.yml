@@ -1,38 +1,51 @@
-site_name: Minha jornada de aprendizado em arquitetura de software
-site_description: Meus fichamentos sobre minhas leituras e projetos da minha jornada de aprendizado
-site_author: Aline Oliveira
+site_name: Minha Jornada em Arquitetura de Software
 site_url: https://knogru.github.io/minha-jornada-na-arquitetura-de-software/
+site_description: Fichamentos e projetos da minha jornada em arquitetura de software
+site_author: Aline Oliveira
 
 theme:
   name: material
+  custom_dir: overrides
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7        
-        name: mudar para modo escuro
     - media: "(prefers-color-scheme: light)"
-      primary: tomato
-      accent: tomato
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
-        name: mudar para modo claro
+        name: Mudar para modo claro
   features:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
     - content.code.copy
+    - navigation.top
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
 
 markdown_extensions:
   - pymdownx.superfences:
-      custom_fences:              
+      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - attr_list
 
 nav:
   - Início: index.md
